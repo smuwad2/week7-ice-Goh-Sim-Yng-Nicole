@@ -39,7 +39,7 @@ export default {
             
         },
         updatePost(event) {
-            
+            axios.get(`${this.baseUrl}/updatePost`)
         }
     }
 }
