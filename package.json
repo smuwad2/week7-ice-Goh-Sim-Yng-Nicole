@@ -11,6 +11,9 @@
     "test-ct": "playwright test -c playwright-ct.config.ts"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0",
     "axios": "^1.11.0"
